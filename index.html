@@ -12,9 +12,9 @@
   <meta property="og:site_name" content="CT Luxx Collection">
   <meta property="og:title" content="CT Luxx Collection — Style That Speaks">
   <meta property="og:description" content="Everything you need in one place. Fast delivery, secure payments, and excellent customer support.">
-  <meta property="og:url" content="https://ctcollection.vercel.app/ads.html">
-  <meta property="og:image" content="https://ctcollection.vercel.app/assets/ctcollection-og.jpg">
-  <meta property="og:image:secure_url" content="https://ctcollection.vercel.app/assets/ctcollection-og.jpg">
+  <meta property="og:url" content="https://ct-umber-six.vercel.app/">
+  <meta property="og:image" content="https://ct-umber-six.vercel.app/ctcollection-og.jpg">
+  <meta property="og:image:secure_url" content="https://ct-umber-six.vercel.app/ctcollection-og.jpg">
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -22,7 +22,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="CT Luxx Collection — Style That Speaks">
   <meta name="twitter:description" content="Fashion, shoes, bags, underwear, kettles and more. Shop CT Luxx Collection.">
-  <meta name="twitter:image" content="https://ctcollection.vercel.app/assets/ctcollection-og.jpg">
+  <meta name="twitter:image" content="https://ct-umber-six.vercel.app/ctcollection-og.jpg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -88,10 +88,10 @@
     /* Layout */
     .wrap { max-width: 1300px; margin: auto; padding: 10px 30px 60px; }
 
-    /* Hero Section */
+    /* Hero Section - Changed to 40/60 split to make poster bigger */
     .hero {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 40% 60%;
       gap: 40px;
       align-items: center;
       margin-bottom: 70px;
@@ -101,7 +101,7 @@
     .hero-text { padding-right: 20px; }
     
     .hero-text h1 {
-      font: 800 clamp(48px, 6vw, 84px)/1.05 "Playfair Display", Georgia, serif;
+      font: 800 clamp(48px, 5vw, 76px)/1.05 "Playfair Display", Georgia, serif;
       letter-spacing: -2px;
       margin: 0 0 20px;
       text-transform: uppercase;
@@ -123,14 +123,15 @@
     
     .hero-image-wrapper {
       position: relative;
-      border-radius: 12px;
+      border-radius: 16px;
       overflow: hidden;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+      box-shadow: 0 24px 48px rgba(0,0,0,0.12);
+      border: 1px solid #e6d3b2;
+      background: #fffaf1;
     }
     .hero-image-wrapper img {
       width: 100%;
-      height: 100%;
-      object-fit: cover;
+      height: auto;
       display: block;
     }
 
@@ -257,7 +258,7 @@
       .hero { grid-template-columns: 1fr; gap: 40px; text-align: center; }
       .hero-text { padding-right: 0; }
       .hero-text h1 { margin: 0 auto 20px; }
-      .hero-image-wrapper { max-width: 600px; margin: 0 auto; }
+      .hero-image-wrapper { max-width: 700px; margin: 0 auto; }
       .grid { grid-template-columns: repeat(2, 1fr); }
     }
     @media (max-width: 768px) {
@@ -283,8 +284,8 @@
   <div class="topline">Fashion • Style • Lifestyle — Shop CT Luxx Collection</div>
 
   <header>
-    <a class="brand" href="https://ctcollection.vercel.app/">CT<span>.</span> COLLECTION</a>
-    <a class="navlink" href="https://ctcollection.vercel.app/">Visit online store ↗</a>
+    <a class="brand" href="https://ct-umber-six.vercel.app/">CT<span>.</span> COLLECTION</a>
+    <a class="navlink" href="https://ct-umber-six.vercel.app/">Visit online store ↗</a>
   </header>
 
   <main class="wrap">
@@ -297,10 +298,10 @@
         </div>
         <h1>STYLE THAT <br><em>SPEAKS.</em></h1>
         <p class="hero-subtitle">Fashion • Shoes • Bags<br>Clothing • Home essentials</p>
-        <a class="button" href="https://ctcollection.vercel.app/">SHOP CT COLLECTION →</a>
+        <a class="button" href="https://ct-umber-six.vercel.app/">SHOP CT COLLECTION →</a>
       </div>
       <div class="hero-image-wrapper">
-        <!-- Image points exactly to your assets folder -->
+        <!-- Increased size by adjusting the grid split -->
         <img src="ctcollection-og.jpg" alt="CT Luxx Collection Poster" width="1200" height="630">
       </div>
     </section>
@@ -313,42 +314,42 @@
       </div>
       
       <div class="grid" id="categories">
-        <a class="category" href="https://ctcollection.vercel.app/">
+        <a class="category" href="https://ct-umber-six.vercel.app/">
           <div class="category-icon">👗</div>
           <h3>Women’s Clothes</h3>
           <p>Styles for every occasion.</p>
         </a>
-        <a class="category" href="https://ctcollection.vercel.app/">
+        <a class="category" href="https://ct-umber-six.vercel.app/">
           <div class="category-icon">👔</div>
           <h3>Men’s Clothes</h3>
           <p>Everyday looks and more.</p>
         </a>
-        <a class="category" href="https://ctcollection.vercel.app/">
+        <a class="category" href="https://ct-umber-six.vercel.app/">
           <div class="category-icon">👠</div>
           <h3>Shoes & Heels</h3>
           <p>Step out with confidence.</p>
         </a>
-        <a class="category" href="https://ctcollection.vercel.app/">
+        <a class="category" href="https://ct-umber-six.vercel.app/">
           <div class="category-icon">👜</div>
           <h3>Women’s Bags</h3>
           <p>Finishing touches for your look.</p>
         </a>
-        <a class="category" href="https://ctcollection.vercel.app/">
+        <a class="category" href="https://ct-umber-six.vercel.app/">
           <div class="category-icon">🎒</div>
           <h3>Launch Bags</h3>
           <p>Find a bag for your day.</p>
         </a>
-        <a class="category" href="https://ctcollection.vercel.app/">
+        <a class="category" href="https://ct-umber-six.vercel.app/">
           <div class="category-icon">🛍️</div>
           <h3>All Bags</h3>
           <p>Explore bags in different styles.</p>
         </a>
-        <a class="category" href="https://ctcollection.vercel.app/">
+        <a class="category" href="https://ct-umber-six.vercel.app/">
           <div class="category-icon">🌸</div>
           <h3>Women’s Underwear</h3>
           <p>Everyday essentials.</p>
         </a>
-        <a class="category" href="https://ctcollection.vercel.app/">
+        <a class="category" href="https://ct-umber-six.vercel.app/">
           <div class="category-icon">☕</div>
           <h3>Kettles</h3>
           <p>Useful home essentials.</p>
@@ -360,7 +361,7 @@
     <section class="closing">
       <h2>Find your style at CT Collection.</h2>
       <p>Fashion, accessories and everyday essentials — all in one place.</p>
-      <a class="button gold" href="https://ctcollection.vercel.app/">Explore the store →</a>
+      <a class="button gold" href="https://ct-umber-six.vercel.app/">Explore the store →</a>
     </section>
 
   </main>
